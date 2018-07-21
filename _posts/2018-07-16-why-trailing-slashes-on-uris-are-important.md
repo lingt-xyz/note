@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Why trailing slashes on uris are important
-categories: Network
+key: why-trailing-slashes-on-uris-are-important
+tags: Network
 ---
 
 [Why trailing slashes on uris are important](https://cdivilly.wordpress.com/2014/03/11/why-trailing-slashes-on-uris-are-important/)
