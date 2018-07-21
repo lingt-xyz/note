@@ -1,48 +1,30 @@
 ---
-layout: article
-titles:
-  en: About
-  zh: 关于
-  zh-Hans: 关于
-  zh-Hant: 關於
-author: Tian Qi
-key: page-about
+layout: page
+title: About
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-TeXt is a Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+There are currently two themes built on Poole:
 
-## Features
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-- Responsive
-- Skins
-- Table of contents
-- Authors
-- Multi-language support(English, Simplified Chinese, Traditional Chinese)
-- Search
-- Semantic HTML
-- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
-- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
-- Mathematical formula ([MathJax](https://www.mathjax.org/))
-- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
-- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
-- Page views ([LeanCloud](https://leancloud.cn/))
-- Comments ([Disqus](https://disqus.com/))
-- Google Analytics
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Skins
+## Setup
 
-You can choose these 6 built-in Skins below:
+Some fun facts about the setup of this project include:
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.png) | ![dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.png) | ![forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.png) |
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.png) | ![chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.png) | ![orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.png) |
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
