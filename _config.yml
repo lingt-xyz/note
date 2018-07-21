@@ -1,16 +1,16 @@
 # Setup
-title:               Ling
-tagline:             'Studying in Concordia University'
-description:         'A site hosting studying materials.'
-url:                 https://panda2ici.github.io
-baseurl:             ''
-paginate:            5
+title:              Ling
+tagline:            'Studying in Concordia University'
+description:        'A site hosting studying materials.'
+url:                https://panda2ici.github.io
+baseurl:            ''
+paginate:           5
 
 # About/contact
 author:
-  name:              
-  url:              
-  email:             
+  name:             Ling
+  url:              https://lingt.xyz
+  email:            lingt.xyz@gmail.com 
 
 # Custom vars
-version:             1.0.0
+version:            1.0.0
