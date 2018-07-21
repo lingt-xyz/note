@@ -2,7 +2,6 @@
 title:              Ling
 tagline:            'Studying in Concordia University'
 description:        'A site hosting studying materials.'
-url:                https://panda2ici.github.io
 baseurl:            ''
 paginate:           5
 
