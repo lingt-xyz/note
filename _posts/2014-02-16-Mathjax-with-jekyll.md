@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "MathJax with Jekyll"
-date: 2014-02-16
-categories: opinion
-tags: [resources, jekyll]
+layout: post_toc
 image: http://gastonsanchez.com/images/blog/mathjax_logo.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:  How to install VirtualBox Guest Additions in a Debian virtual machine
 key: how-to-install-VirtualBox-GuestAdditions-in-a-Debian-virtual machine
-tags: System
+layout: post_toc
 ---
 
 [How to install VirtualBox Guest Additions in a Debian virtual machine](https://unix.stackexchange.com/questions/286934/how-to-install-virtualbox-guest-additions-in-a-debian-virtual-machine)

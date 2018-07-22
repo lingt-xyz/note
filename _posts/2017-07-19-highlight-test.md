@@ -2,7 +2,7 @@
 title: Highlight Test
 categories:
  - Test
-tags:
+layout: post_toc
 ---
 
 This is a highlight test.
