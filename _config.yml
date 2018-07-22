@@ -1,6 +1,8 @@
 # Permalinks
 permalink:           pretty
 
+excerpt_separator:   <!--more-->
+
 # Setup
 title:               Ling
 tagline:             'Studying at Concordia University'

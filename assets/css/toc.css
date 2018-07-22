@@ -13,8 +13,9 @@
     background-color: #202020;
     -webkit-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
-    padding-left: 0.5rem;
-    padding-right: 2.5rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   .toc_title {
@@ -28,7 +29,11 @@
     list-style: outside none none !important;
   }
   */
-  
+
+  #toc_container ol, ul{
+    margin-right: 1rem;
+  }
+
   #toc_container li{
     margin-top: 0.5rem;
   }
