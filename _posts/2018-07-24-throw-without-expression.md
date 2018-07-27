@@ -1,4 +1,3 @@
-
 ---
 title:  Throw statement with no expression
 layout: post
