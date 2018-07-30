@@ -3,6 +3,7 @@ title: Why trailing slashes on uris are important
 key: why-trailing-slashes-on-uris-are-important
 layout: post
 categories: network
+tags: network
 ---
 
 ### Origin of the trailing slash
