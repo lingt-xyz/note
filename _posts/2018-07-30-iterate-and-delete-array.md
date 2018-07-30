@@ -6,6 +6,7 @@ tags: javascript
 ---
 
 > add splice api
+
 <!--more-->
 ``` javascript
 let i = arr.length;

@@ -1,5 +1,5 @@
 ---
-title:  Update nestedobject
+title:  Update nested object
 layout: post
 categories: javascript
 tags: javascript vue
