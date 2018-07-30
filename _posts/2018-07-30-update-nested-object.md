@@ -27,4 +27,3 @@ if (aiVue) {
 <span v-for="some in player.someCollection" v-html="some.toHtml()"></span>
 <span>Hand: {{ player.someCollection.length }} </span>
 ```
-[throw (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw)
