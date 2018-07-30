@@ -1,5 +1,5 @@
 ---
-title:  Throw statement with no expression
+title:  Iterate and delete element from array
 layout: post
 categories: javascript
 tags: javascript
