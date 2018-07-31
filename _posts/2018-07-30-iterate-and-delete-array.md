@@ -4,8 +4,8 @@ layout: post
 categories: javascript
 tags: javascript
 ---
-
-> add splice api
+[Array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+> The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
 
 <!--more-->
 ``` javascript
