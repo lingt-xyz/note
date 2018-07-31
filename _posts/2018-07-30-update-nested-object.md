@@ -5,7 +5,7 @@ categories: javascript
 tags: javascript vue
 ---
 
-Update nested object in vue.js
+Update nested object in Vue.js
 <!--more-->
 ``` javascript
 let aiVue = null;
