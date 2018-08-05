@@ -26,10 +26,16 @@
   
   @media (min-width: 100em) {
     #toc_container {
-      max-width: 18rem;
+      max-width: 15rem;
     }
   }
   
+  @media (min-width: 110em) {
+    #toc_container {
+      max-width: 18rem;
+    }
+  }
+
   .toc_title {
     font-weight: 700;
     text-align: center;
