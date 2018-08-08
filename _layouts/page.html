@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="page">
+<div class="col-md-8 offset-md-2">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
-  {% if page.toc %}
-    {% include tocbar.html %}
-  {% endif %}
 </div>
+{% if page.toc %}
+{% include tocbar.html %}
+{% endif %}
