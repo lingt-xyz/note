@@ -1,61 +1,88 @@
 /* tocbar */
 #toc_container {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: auto;
-    max-width: 14rem;
-    overflow-y: auto;
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-    font-size: .875rem; /* 15px */
-    color: rgba(255,255,255,.6);
-    background-color: #202020;
-    -webkit-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  max-width: 14rem;
+  overflow-y: auto;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: .875rem; /* 15px */
+  color: rgba(255,255,255,.6);
+  background-color: #202020;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 90em){
+  #toc_container {
+    display: none;
   }
-  
-  @media (max-width: 90em){
-    #toc_container {
+}
+
+@media (min-width: 100em) {
+  #toc_container {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 110em) {
+  #toc_container {
+    max-width: 18rem;
+  }
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/*
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+}
+*/
+
+#toc_container ol, ul{
+  margin-right: 1rem;
+}
+
+#toc_container li{
+  margin-top: 0.5rem;
+}
+
+#toc_container a{
+  color: #fff;
+}
+
+/* Scroll */
+nav[data-toggle='toc'] {
+  top: 42px;
+}
+
+/* small screens */
+
+@media (max-width: 768px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle='toc'] {
+      margin-bottom: 42px;
+      position: static;
+  }
+
+  /* PICK ONE */
+  /* don't expand nested items, which pushes down the rest of the page when navigating */
+  nav[data-toggle='toc'] .nav .active .nav {
       display: none;
-    }
   }
-  
-  @media (min-width: 100em) {
-    #toc_container {
-      max-width: 15rem;
-    }
-  }
-  
-  @media (min-width: 110em) {
-    #toc_container {
-      max-width: 18rem;
-    }
-  }
-
-  .toc_title {
-    font-weight: 700;
-    text-align: center;
-    padding-top: 1rem;
-  }
-  
+  /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
   /*
-  #toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
+  nav[data-toggle='toc'] .nav .nav {
+      display: block;
   }
   */
-
-  #toc_container ol, ul{
-    margin-right: 1rem;
-  }
-
-  #toc_container li{
-    margin-top: 0.5rem;
-  }
-  
-  #toc_container a{
-    color: #fff;
-  }
+}
