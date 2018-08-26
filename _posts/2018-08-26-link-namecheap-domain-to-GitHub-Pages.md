@@ -1,5 +1,5 @@
 ---
-title: link namecheap domain to GitHub Pages
+title: Link Namecheap Domain to GitHub Pages
 key: link-namecheap-domain-to-GitHub-Pages
 layout: post
 categories: network
