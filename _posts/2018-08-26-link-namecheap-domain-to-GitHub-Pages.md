@@ -7,8 +7,8 @@ tags: network
 ---
 
 ### Add domain to Github repository
-* By add a CNAME file.
-* Or add by settings.
+* By adding a CNAME file.
+* Or by changing settings.
 
 ### Config Namecheap
 * ``A`` record for ``@`` pointing to ``185.199.108.153``
