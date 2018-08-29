@@ -193,34 +193,35 @@ $$
 
 {% raw %}
 $$ 
-\begin{Bmatrix }
+\begin{Bmatrix}
     1 & 2 \\
     3 & 4 \\ 
-\end{Bmatrix }
+\end{Bmatrix}
+
 $$
 {% endraw %} 
 
 ``` tex
-\begin{Bmatrix }
+\begin{Bmatrix}
     1 & 2 \\
     3 & 4 \\ 
-\end{Bmatrix }
+\end{Bmatrix}
 ```
 
 {% raw %}
 $$ 
-\begin{vmatrix }
+\begin{vmatrix}
     1 & 2 \\
     3 & 4 \\ 
-\end{vmatrix }
+\end{vmatrix}
 $$
 {% endraw %} 
 
 ``` tex
-\begin{vmatrix }
+\begin{vmatrix}
     1 & 2 \\
     3 & 4 \\ 
-\end{vmatrix }
+\end{vmatrix}
 ```
 
 {% raw %}
@@ -740,7 +741,7 @@ x = a_0 + \cfrac{1^2}{a_1
 
 {% raw %}
 $$
-$\require{AMScd}$
+\require{AMScd}
 \begin{CD}
     A @>a>> B\\
     @V b V V= @VV c V\\
@@ -750,7 +751,7 @@ $$
 {% endraw %} 
 
 ``` tex
-$\require{AMScd}$
+\require{AMScd}
 \begin{CD}
     A @>a>> B\\
     @V b V V= @VV c V\\
@@ -790,7 +791,6 @@ D @= E @<<< F
 
 
 ### 23. Highlighting equation
-
 
 {% raw %}
 $$
@@ -869,7 +869,7 @@ e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 
 {% raw %}$$ \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit $${% endraw %} ``` \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit ```
 
-{% raw %}$$ \color{red}{\heartsuit} and \color{red}{\diamondsuit} $${% endraw %} ``` \color{red}{\heartsuit} and \color{red}{\diamondsuit} ```
+{% raw %}$$ \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} $${% endraw %} ``` \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} ```
 
 {% raw %}$$  $${% endraw %} ```  ```
 
