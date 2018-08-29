@@ -62,3 +62,11 @@ Two things need to be done.
 ### Fractions
 
 ### Radical signs
+
+### Special symbols and notations
+
+### Plain text
+{% raw %}$$ \{x\in s\mid x\text{ is extra large}\} $${% endraw %}
+```
+\{x\in s\mid x\text{ is extra large}\}
+```
