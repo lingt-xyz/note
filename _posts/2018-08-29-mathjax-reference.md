@@ -33,15 +33,29 @@ A “group” is either a single symbol, or any formula surrounded by curly brac
 {% raw %}$$ x_{i^2} $${% endraw %} ``` x_{i^2} ```
 
 ### 4. Parentheses 
-Ordinary symbols ```()[]``` make parentheses and brackets (2+3)[4+4]. Use ```\{``` and ```\}``` for curly braces {% raw %}$${}$${% endraw %}.
+Ordinary symbols ```()[]``` make parentheses and brackets (2+3)[4+4]. Use ```\{``` and ```\}``` for curly braces {% raw %}$$ \{\} $${% endraw %}.
 
 {% raw %}$$ (\frac{\sqrt x}{y^3}) $${% endraw %} ``` (\frac{\sqrt x}{y^3}) ```
 
 {% raw %}$$ \left(\frac{\sqrt x}{y^3}\right) $${% endraw %} ``` \left(\frac{\sqrt x}{y^3}\right) ```
 
+{% raw %}$$ \Biggl(\biggl(\Bigl(\bigl((x)\bigr)\Bigr)\biggr)\Biggr) $${% endraw %} ``` \Biggl(\biggl(\Bigl(\bigl((x)\bigr)\Bigr)\biggr)\Biggr) ```
+
 ### Sums and integrals
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$ \sum_1^n $${% endraw %} ``` \sum_1^n ```
+
+{% raw %}$$ \sum_{i=0}^\infty i^2 $${% endraw %} ``` \sum_{i=0}^\infty i^2 ```
+
+{% raw %}$$ \prod $${% endraw %} ``` \prod ```
+
+{% raw %}$$ \int $${% endraw %} ``` \int ```
+
+{% raw %}$$ \bigcup $${% endraw %} ``` \bigcup ```
+
+{% raw %}$$ \bigcap $${% endraw %} ``` \bigcap ```
+
+{% raw %}$$ \iint $${% endraw %} ``` \iint ```
 
 ### Fractions
 
