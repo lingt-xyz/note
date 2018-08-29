@@ -280,26 +280,6 @@ $$
 \right]
 ```
 
-{% raw %}
-$$
-\left[
-\begin{array}{cc|c}
-  1&2&3\\
-  4&5&6
-\end{array}
-\right]
-$$
-{% endraw %} 
-
-``` tex
-\left[
-\begin{array}{cc|c}
-  1&2&3\\
-  4&5&6
-\end{array}
-\right]
-```
-
 ### 14. Aligned equations
 
 {% raw %}
