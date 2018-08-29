@@ -143,7 +143,7 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{matrix}
     1 & x & x^2 \\
     1 & y & y^2 \\
@@ -160,7 +160,7 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{pmatrix}
     1 & 2 \\
     3 & 4 \\ 
@@ -176,7 +176,7 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{bmatrix}
     1 & 2 \\
     3 & 4 \\ 
@@ -192,7 +192,7 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{Bmatrix }
     1 & 2 \\
     3 & 4 \\ 
@@ -208,7 +208,7 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{vmatrix }
     1 & 2 \\
     3 & 4 \\ 
@@ -224,13 +224,252 @@ $$
 $$
 {% endraw %} 
 
-```
+``` tex
 \begin{Vmatrix}
     1 & 2 \\
     3 & 4 \\ 
 \end{Vmatrix}
 ```
 
+{% raw %}
+$$
+\begin{pmatrix}
+ 1 & a_1 & a_1^2 & \cdots & a_1^n \\
+ 1 & a_2 & a_2^2 & \cdots & a_2^n \\
+ \vdots  & \vdots& \vdots & \ddots & \vdots \\
+ 1 & a_m & a_m^2 & \cdots & a_m^n    
+\end{pmatrix}
+$$
+{% endraw %} 
+
+``` tex
+\begin{pmatrix}
+ 1 & a_1 & a_1^2 & \cdots & a_1^n \\
+ 1 & a_2 & a_2^2 & \cdots & a_2^n \\
+ \vdots  & \vdots& \vdots & \ddots & \vdots \\
+ 1 & a_m & a_m^2 & \cdots & a_m^n    
+\end{pmatrix}
+```
+
+{% raw %}
+$$
+\left[
+\begin{array}{cc|c}
+  1&2&3\\
+  4&5&6
+\end{array}
+\right]
+$$
+{% endraw %} 
+
+``` tex
+\left[
+\begin{array}{cc|c}
+  1&2&3\\
+  4&5&6
+\end{array}
+\right]
+```
+
+{% raw %}
+$$
+\left[
+\begin{array}{cc|c}
+  1&2&3\\
+  4&5&6
+\end{array}
+\right]
+$$
+{% endraw %} 
+
+``` tex
+\left[
+\begin{array}{cc|c}
+  1&2&3\\
+  4&5&6
+\end{array}
+\right]
+```
+
+### 14. Aligned equations
+
+{% raw %}
+$$
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+$$
+{% endraw %} 
+
+``` tex
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+```
+
+### 15. Piecewise functions
+
+{% raw %}
+$$
+f(n) =
+\begin{cases}
+n/2,  & \text{if $n$ is even} \\
+3n+1, & \text{if $n$ is odd}
+\end{cases}
+$$
+{% endraw %} 
+
+``` tex
+f(n) =
+\begin{cases}
+n/2,  & \text{if $n$ is even} \\
+3n+1, & \text{if $n$ is odd}
+\end{cases}
+```
+
+{% raw %}
+$$
+\left.
+\begin{array}{l}
+\text{if $n$ is even:}&n/2\\
+\text{if $n$ is odd:}&3n+1
+\end{array}
+\right\}
+=f(n)
+$$
+{% endraw %} 
+
+``` tex
+\left.
+\begin{array}{l}
+\text{if $n$ is even:}&n/2\\
+\text{if $n$ is odd:}&3n+1
+\end{array}
+\right\}
+=f(n)
+```
+
+
+### 16. Arrays
+
+{% raw %}
+$$
+\begin{array}{c|lcr}
+n & \text{Left} & \text{Center} & \text{Right} \\
+\hline
+1 & 0.24 & 1 & 125 \\
+2 & -1 & 189 & -8 \\
+3 & -20 & 2000 & 1+10i
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{c|lcr}
+n & \text{Left} & \text{Center} & \text{Right} \\
+\hline
+1 & 0.24 & 1 & 125 \\
+2 & -1 & 189 & -8 \\
+3 & -20 & 2000 & 1+10i
+\end{array}
+```
+
+{% raw %}
+$$
+% outer vertical array of arrays
+\begin{array}{c}
+% inner horizontal array of arrays
+\begin{array}{cc}
+% inner array of minimum values
+\begin{array}{c|cccc}
+\text{min} & 0 & 1 & 2 & 3\\
+\hline
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 1 & 1 & 1\\
+2 & 0 & 1 & 2 & 2\\
+3 & 0 & 1 & 2 & 3
+\end{array}
+&
+% inner array of maximum values
+\begin{array}{c|cccc}
+\text{max}&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 1 & 2 & 3\\
+2 & 2 & 2 & 2 & 3\\
+3 & 3 & 3 & 3 & 3
+\end{array}
+\end{array}
+\\
+% inner array of delta values
+\begin{array}{c|cccc}
+\Delta&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 0 & 1 & 2\\
+2 & 2 & 1 & 0 & 1\\
+3 & 3 & 2 & 1 & 0
+\end{array}
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+% outer vertical array of arrays
+\begin{array}{c}
+% inner horizontal array of arrays
+\begin{array}{cc}
+% inner array of minimum values
+\begin{array}{c|cccc}
+\text{min} & 0 & 1 & 2 & 3\\
+\hline
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 1 & 1 & 1\\
+2 & 0 & 1 & 2 & 2\\
+3 & 0 & 1 & 2 & 3
+\end{array}
+&
+% inner array of maximum values
+\begin{array}{c|cccc}
+\text{max}&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 1 & 2 & 3\\
+2 & 2 & 2 & 2 & 3\\
+3 & 3 & 3 & 3 & 3
+\end{array}
+\end{array}
+\\
+% inner array of delta values
+\begin{array}{c|cccc}
+\Delta&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 0 & 1 & 2\\
+2 & 2 & 1 & 0 & 1\\
+3 & 3 & 2 & 1 & 0
+\end{array}
+\end{array}
+```
+
 
 
 {% raw %}$$  $${% endraw %} ```  ```
+
+{% raw %}
+$$
+
+$$
+{% endraw %} 
+
+``` tex
+
+```
