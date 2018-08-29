@@ -59,7 +59,13 @@ Ordinary symbols ```()[]``` make parentheses and brackets (2+3)[4+4]. Use ```\{`
 
 ### Fractions
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$ \frac ab $${% endraw %} ``` \frac ab ```
+
+{% raw %}$$ \frac{a+1}{b+1} $${% endraw %} ``` \frac{a+1}{b+1} ```
+
+{% raw %}$$ {a+1\over b+1} $${% endraw %} ``` {a+1\over b+1} ```
+
+{% raw %}$$ \cfrac{a}{b} $${% endraw %} ``` \cfrac{a}{b} ```
 
 ### Radical signs
 
