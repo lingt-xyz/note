@@ -16,9 +16,9 @@ Two things need to be done.
     ```
 2. Put the code in ```{% raw %} {% endraw %}```
     ```
-    {% raw %}{% raw %}{% endraw %}
+    {% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
         $$put MathJax here$$
-    {% raw %}{% endraw %}{% endraw %}
+    {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
     ```
     
 ## Style Examples
