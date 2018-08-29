@@ -1,7 +1,6 @@
 ---
 title: Use Latex in Jekyll
 layout: post
-toc: true
 categories: latex
 ---
 Two things need to be done.
@@ -21,7 +20,7 @@ Two things need to be done.
     {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
     ```
     
-## Style Examples
+### Style Examples
 
 * Inline
     {% raw %}
@@ -40,39 +39,3 @@ Two things need to be done.
     ```
     $$a^2 + b^2 = c^2$$
     ```
-
-## Syntax Examples
-
-[MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
-
-### Greek letters
-
-{% raw %}$$ \alpha, \beta, … \omega $${% endraw %}
-
-```\alpha, \beta, …, \omega```
-
-{% raw %}$$ \Gamma, \Delta, …, \Omega $${% endraw %}
-
-```\Gamma, \Delta, …, \Omega```
-
-### Superscripts and Subscripts
-
-### Groups
-
-### Parentheses 
-
-### Sums and integrals
-
-### Fractions
-
-### Radical signs
-
-### Special symbols and notations
-
-### Plain text
-
-{% raw %}$$ \{x\in s\mid x\text{ is extra large}\} $${% endraw %}
-
-```
-\{x\in s\mid x\text{ is extra large}\}
-```
