@@ -9,32 +9,35 @@ categories: latex
 
 <!--more-->
 
-### Greek letters
+### 1. Greek letters
 
 {% raw %}$$ \alpha, \beta, … \omega $${% endraw %} ```\alpha, \beta, …, \omega```
 
 {% raw %}$$ \Gamma, \Delta, …, \Omega $${% endraw %} ```\Gamma, \Delta, …, \Omega```
 
-### Superscripts and Subscripts
+### 2. Superscripts and Subscripts
 
 {% raw %}$$ x_i^2 $${% endraw %} ``` x_i^2 ```
 
 {% raw %}$$ \log_2 x $${% endraw %} ``` \log_2 x ```
 
-### Groups
+### 3. Groups
 A “group” is either a single symbol, or any formula surrounded by curly braces ```{```…```}```.
 
 {% raw %}$$ 10^10 $${% endraw %} ``` 10^10 ```
 
 {% raw %}$$ 10^{10} $${% endraw %} ``` 10^{10} ```
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$ x_i^2 $${% endraw %} ``` x_i^2 ```
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$ x_{i^2} $${% endraw %} ``` x_{i^2} ```
 
-### Parentheses 
+### 4. Parentheses 
+Ordinary symbols ```()[]``` make parentheses and brackets (2+3)[4+4]. Use ```\{``` and ```\}``` for curly braces {% raw %}$${}$${% endraw %}.
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$ (\frac{\sqrt x}{y^3}) $${% endraw %} ``` (\frac{\sqrt x}{y^3}) ```
+
+{% raw %}$$ \left(\frac{\sqrt x}{y^3}\right) $${% endraw %} ``` \left(\frac{\sqrt x}{y^3}\right) ```
 
 ### Sums and integrals
 
