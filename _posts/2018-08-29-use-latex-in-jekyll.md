@@ -17,7 +17,7 @@ Two things need to be done.
 2. Put the code in ```{% raw %} {% endraw %}```
     ```
     {% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
-        $$put MathJax here$$
+        $$ put MathJax here $$
     {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
     ```
     
@@ -25,16 +25,16 @@ Two things need to be done.
 
 * Inline
     {% raw %}
-    $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+    $$ a^2 + b^2 = c^2 $$ --> note that all equations between these tags will not need escaping! 
     {% endraw %}
 
     ```
-    $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping!
+    $$ a^2 + b^2 = c^2 $$ --> note that all equations between these tags will not need escaping!
     ```
 
 * Block
     {% raw %}
-    $$a^2 + b^2 = c^2$$
+    $$ a^2 + b^2 = c^2 $$
     {% endraw %}
 
     ```
@@ -46,9 +46,13 @@ Two things need to be done.
 [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 ### Greek letters
-{% raw %}$$\alpha, \beta, … \omega$${% endraw %}
+
+{% raw %}$$ \alpha, \beta, … \omega $${% endraw %}
+
 ```\alpha, \beta, …, \omega```
-{% raw %}$$\Gamma, \Delta, …, \Omega$${% endraw %}
+
+{% raw %}$$ \Gamma, \Delta, …, \Omega $${% endraw %}
+
 ```\Gamma, \Delta, …, \Omega```
 
 ### Superscripts and Subscripts
@@ -66,7 +70,9 @@ Two things need to be done.
 ### Special symbols and notations
 
 ### Plain text
+
 {% raw %}$$ \{x\in s\mid x\text{ is extra large}\} $${% endraw %}
+
 ```
 \{x\in s\mid x\text{ is extra large}\}
 ```
