@@ -21,7 +21,7 @@ Two things need to be done.
     {% endraw %}
     ```
     
-### Style Examples
+## Style Examples
 
 * Inline
     {% raw %}
@@ -41,12 +41,21 @@ Two things need to be done.
     $$a^2 + b^2 = c^2$$
     ```
 
-### Syntax Examples
+## Syntax Examples
 
 [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
-#### Greek letters
+### Greek letters
 For Greek letters, use ```\alpha, \beta, …, \omega```: {% raw %}$$\alpha, \beta, … \omega$${% endraw %}. For uppercase, use ```\Gamma, \Delta, …, \Omega```: {% raw %}$$\Gamma, \Delta, …, \Omega$${% endraw %}.
-#### Superscripts and Subscripts
 
-#### Groups
+### Superscripts and Subscripts
+
+### Groups
+
+### Parentheses 
+
+### Sums and integrals
+
+### Fractions
+
+### Radical signs

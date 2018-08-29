@@ -11,7 +11,7 @@ layout: default
   </ul>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  {% if page.toc %}
-    {% include tocbar.html %}
-  {% endif %}
 </div>
+{% if page.toc %}
+  {% include tocbar.html %}
+{% endif %}
