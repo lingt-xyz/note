@@ -96,7 +96,16 @@ Use ```\mathbb``` or ```\Bbb``` for "blackboard bold"
 
 {% raw %}$$ \land \lor \lnot \forall \exists \top \bot \vdash \vDash $${% endraw %} ``` \land \lor \lnot \forall \exists \top \bot \vdash \vDash ```
 
-{% raw %}$$ \star \ast \oplus \circ \bullet $${% endraw %} ``` \star \ast \oplus \circ \bullet ```
+{% raw %}$$ \xleftarrow{abc} \xrightarrow{abc} $${% endraw %} ``` \xleftarrow{abc} \xrightarrow{abc} ```
+
+{% raw %}$$ \overbrace{(n - 2) + \overbrace{(n - 1) + n + (n + 1)} + (n + 2)} $${% endraw %} ``` \overbrace{(n - 2) + \overbrace{(n - 1) + n + (n + 1)} + (n + 2)} ```
+
+{% raw %}$$ (n \underbrace{- 2) + (n \underbrace{- 1) + n + (n +} 1) + (n +} 2) $${% endraw %} ``` (n \underbrace{- 2) + (n \underbrace{- 1) + n + (n +} 1) + (n +} 2) ```
+
+{% raw %}$$ \underbrace{a\cdot a\cdots a}_{b\text{ times}} $${% endraw %} ``` \underbrace{a\cdot a\cdots a}_{b\text{ times}} ```
+
+{% raw %}$$ \overset{@}{ABC}\ \overset{x^2}{\longmapsto}\ \overset{\bullet\circ\circ\bullet}{T} $${% endraw %} ``` \overset{@}{ABC}\ \overset{x^2}{\longmapsto}\ \overset{\bullet\circ\circ\bullet}{T} ```
+
 
 {% raw %}$$ \star \ast \oplus \circ \bullet $${% endraw %} ``` \star \ast \oplus \circ \bullet ```
 
@@ -125,7 +134,6 @@ Use ```\mathbb``` or ```\Bbb``` for "blackboard bold"
 {% raw %}$$ \frac d{dx}x\dot x =  \dot x^2 +  x\ddot x $${% endraw %} ``` \frac d{dx}x\dot x =  \dot x^2 +  x\ddot x ```
 
 ### 12. Escape characters
-```\```
 
 {% raw %}$$ \backslash $${% endraw %} ``` \backslash ```
 
@@ -460,7 +468,408 @@ $$
 \end{array}
 ```
 
+### 17. Fussy spacing issues
 
+{% raw %}
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\
+\int_{-\frac\pi2}^\frac\pi2 \sin x\,dx & \int_{-\pi/2}^{\pi/2}\sin x\,dx \\
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\
+\int_{-\frac\pi2}^\frac\pi2 \sin x\,dx & \int_{-\pi/2}^{\pi/2}\sin x\,dx \\
+\end{array}
+```
+
+{% raw %}
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\{x|x^2\in\Bbb Z\} & \{x\mid x^2\in\Bbb Z\} \\
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\{x|x^2\in\Bbb Z\} & \{x\mid x^2\in\Bbb Z\} \\
+\end{array}
+```
+
+{% raw %}
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\int\int_S f(x)\,dy\,dx & \iint_S f(x)\,dy\,dx \\
+\int\int\int_V f(x)\,dz\,dy\,dx & \iiint_V f(x)\,dz\,dy\,dx
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\int\int_S f(x)\,dy\,dx & \iint_S f(x)\,dy\,dx \\
+\int\int\int_V f(x)\,dz\,dy\,dx & \iiint_V f(x)\,dz\,dy\,dx
+\end{array}
+```
+
+{% raw %}
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\iiint_V f(x)dz dy dx & \iiint_V f(x)\,dz\,dy\,dx
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\iiint_V f(x)dz dy dx & \iiint_V f(x)\,dz\,dy\,dx
+\end{array}
+```
+
+### 18. System of equations
+
+{% raw %}
+$$
+\begin{cases}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{cases}
+$$
+{% endraw %} 
+
+``` tex
+\begin{cases}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{cases}
+```
+
+{% raw %}
+$$
+\left\{ 
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right. 
+$$
+{% endraw %} 
+
+``` tex
+\left\{ 
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right. 
+```
+
+{% raw %}
+$$
+\left\{
+\begin{aligned} 
+a_1x+b_1y+c_1z &=d_1+e_1 \\ 
+a_2x+b_2y&=d_2 \\ 
+a_3x+b_3y+c_3z &=d_3 
+\end{aligned} 
+\right.
+$$
+{% endraw %} 
+
+``` tex
+\left\{
+\begin{aligned} 
+a_1x+b_1y+c_1z &=d_1+e_1 \\ 
+a_2x+b_2y&=d_2 \\ 
+a_3x+b_3y+c_3z &=d_3 
+\end{aligned} 
+\right.
+```
+
+{% raw %}
+$$
+\left\{
+\begin{array}{ll}
+a_1x+b_1y+c_1z &=d_1+e_1 \\ 
+a_2x+b_2y &=d_2 \\ 
+a_3x+b_3y+c_3z &=d_3 
+\end{array} 
+\right.
+$$
+{% endraw %} 
+
+``` tex
+\left\{
+\begin{array}{ll}
+a_1x+b_1y+c_1z &=d_1+e_1 \\ 
+a_2x+b_2y &=d_2 \\ 
+a_3x+b_3y+c_3z &=d_3 
+\end{array} 
+\right.
+```
+
+{% raw %}
+$$
+\begin{cases}
+a_1x+b_1y+c_1z=d_1 \\[2ex] 
+a_2x+b_2y+c_2z=d_2 \\[2ex] 
+a_3x+b_3y+c_3z=d_3
+\end{cases}
+$$
+{% endraw %} 
+
+``` tex
+\begin{cases}
+a_1x+b_1y+c_1z=d_1 \\[2ex] 
+a_2x+b_2y+c_2z=d_2 \\[2ex] 
+a_3x+b_3y+c_3z=d_3
+\end{cases}
+```
+
+{% raw %}
+$$
+\begin{cases}
+a_1x+b_1y+c_1z=\frac{p_1}{q_1} \\
+a_2x+b_2y+c_2z=\frac{p_2}{q_2} \\
+a_3x+b_3y+c_3z=\frac{p_3}{q_3}
+\end{cases}
+$$
+{% endraw %} 
+
+``` tex
+\begin{cases}
+a_1x+b_1y+c_1z=\frac{p_1}{q_1} \\
+a_2x+b_2y+c_2z=\frac{p_2}{q_2} \\
+a_3x+b_3y+c_3z=\frac{p_3}{q_3}
+\end{cases}
+```
+
+### 19. Colors
+
+{% raw %}
+$$
+\begin{array}{|rc|}
+\hline
+\verb+\color{black}{text}+ & \color{black}{text} \\
+\verb+\color{gray}{text}+ & \color{gray}{text} \\
+\verb+\color{silver}{text}+ & \color{silver}{text} \\
+\verb+\color{white}{text}+ & \color{white}{text} \\
+\hline
+\verb+\color{maroon}{text}+ & \color{maroon}{text} \\
+\verb+\color{red}{text}+ & \color{red}{text} \\
+\verb+\color{yellow}{text}+ & \color{yellow}{text} \\
+\verb+\color{lime}{text}+ & \color{lime}{text} \\
+\verb+\color{olive}{text}+ & \color{olive}{text} \\
+\verb+\color{green}{text}+ & \color{green}{text} \\
+\verb+\color{teal}{text}+ & \color{teal}{text} \\
+\verb+\color{aqua}{text}+ & \color{aqua}{text} \\
+\verb+\color{blue}{text}+ & \color{blue}{text} \\
+\verb+\color{navy}{text}+ & \color{navy}{text} \\
+\verb+\color{purple}{text}+ & \color{purple}{text} \\ 
+\verb+\color{fuchsia}{text}+ & \color{magenta}{text} \\
+\hline
+\end{array}
+$$
+{% endraw %} 
+
+``` tex
+\begin{array}{|rc|}
+\hline
+\verb+\color{black}{text}+ & \color{black}{text} \\
+\verb+\color{gray}{text}+ & \color{gray}{text} \\
+\verb+\color{silver}{text}+ & \color{silver}{text} \\
+\verb+\color{white}{text}+ & \color{white}{text} \\
+\hline
+\verb+\color{maroon}{text}+ & \color{maroon}{text} \\
+\verb+\color{red}{text}+ & \color{red}{text} \\
+\verb+\color{yellow}{text}+ & \color{yellow}{text} \\
+\verb+\color{lime}{text}+ & \color{lime}{text} \\
+\verb+\color{olive}{text}+ & \color{olive}{text} \\
+\verb+\color{green}{text}+ & \color{green}{text} \\
+\verb+\color{teal}{text}+ & \color{teal}{text} \\
+\verb+\color{aqua}{text}+ & \color{aqua}{text} \\
+\verb+\color{blue}{text}+ & \color{blue}{text} \\
+\verb+\color{navy}{text}+ & \color{navy}{text} \\
+\verb+\color{purple}{text}+ & \color{purple}{text} \\ 
+\verb+\color{fuchsia}{text}+ & \color{magenta}{text} \\
+\hline
+\end{array}
+```
+
+### 20. Continued fractions
+
+{% raw %}
+$$
+x = a_0 + \cfrac{1^2}{a_1
+          + \cfrac{2^2}{a_2
+            + \cfrac{3^2}{a_3 + \cfrac{4^4}{a_4 + \cdots}}}}
+$$
+{% endraw %} 
+
+``` tex
+x = a_0 + \cfrac{1^2}{a_1
+          + \cfrac{2^2}{a_2
+            + \cfrac{3^2}{a_3 + \cfrac{4^4}{a_4 + \cdots}}}}
+```
+
+### 21. Commutative diagrams
+
+{% raw %}
+$$
+$\require{AMScd}$
+\begin{CD}
+    A @>a>> B\\
+    @V b V V= @VV c V\\
+    C @>>d> D
+\end{CD}
+$$
+{% endraw %} 
+
+``` tex
+$\require{AMScd}$
+\begin{CD}
+    A @>a>> B\\
+    @V b V V= @VV c V\\
+    C @>>d> D
+\end{CD}
+```
+
+{% raw %}
+$$
+\begin{CD}
+A @>>> B @>{\text{very long label}}>> C \\
+@. @AAA @| \\
+D @= E @<<< F
+\end{CD}
+$$
+{% endraw %} 
+
+``` tex
+\begin{CD}
+A @>>> B @>{\text{very long label}}>> C \\
+@. @AAA @| \\
+D @= E @<<< F
+\end{CD}
+```
+
+### 22. Logic
+
+{% raw %}$$ \implies $${% endraw %} ``` \implies ```
+
+{% raw %}$$ \iff $${% endraw %} ``` \iff ```
+
+{% raw %}$$ \impliedby $${% endraw %} ``` \impliedby ```
+
+{% raw %}$$ \to $${% endraw %} ``` \to ```
+
+{% raw %}$$ \gets $${% endraw %} ``` \gets ```
+
+
+### 23. Highlighting equation
+
+
+{% raw %}
+$$
+\bbox[yellow]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+$$
+{% endraw %} 
+
+``` tex
+\bbox[yellow]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+```
+
+{% raw %}
+$$
+\bbox[yellow,5px]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+$$
+{% endraw %} 
+
+``` tex
+\bbox[yellow,5px]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+```
+
+{% raw %}
+$$
+\bbox[5px,border:2px solid red]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (2) 
+}
+$$
+{% endraw %} 
+
+``` tex
+\bbox[5px,border:2px solid red]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (2) 
+}
+```
+
+{% raw %}
+$$
+\bbox[yellow,5px,border:2px solid red]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+$$
+{% endraw %} 
+
+``` tex
+\bbox[yellow,5px,border:2px solid red]
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (1)
+}
+```
+
+### 24. Pack of cards
+
+
+{% raw %}$$ \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit $${% endraw %} ``` \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit ```
+
+{% raw %}$$ \color{red}{\heartsuit} and \color{red}{\diamondsuit} $${% endraw %} ``` \color{red}{\heartsuit} and \color{red}{\diamondsuit} ```
 
 {% raw %}$$  $${% endraw %} ```  ```
 
