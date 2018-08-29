@@ -16,7 +16,7 @@ Two things need to be done.
     ```
 2. Put the code in ```{% raw %} {% endraw %}```
     ```
-    {% raw %}
+    \{% raw %}
         $$put MathJax here$$
     {% endraw %}
     ```
