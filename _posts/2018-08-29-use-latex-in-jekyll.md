@@ -46,7 +46,10 @@ Two things need to be done.
 [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 ### Greek letters
-For Greek letters, use ```\alpha, \beta, …, \omega```: {% raw %}$$\alpha, \beta, … \omega$${% endraw %}. For uppercase, use ```\Gamma, \Delta, …, \Omega```: {% raw %}$$\Gamma, \Delta, …, \Omega$${% endraw %}.
+{% raw %}$$\alpha, \beta, … \omega$${% endraw %}
+```\alpha, \beta, …, \omega```
+{% raw %}$$\Gamma, \Delta, …, \Omega$${% endraw %}
+```\Gamma, \Delta, …, \Omega```
 
 ### Superscripts and Subscripts
 
