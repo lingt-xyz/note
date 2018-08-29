@@ -11,13 +11,9 @@ categories: latex
 
 ### Greek letters
 
-{% raw %}$$ \alpha, \beta, … \omega $${% endraw %}
+{% raw %}$$ \alpha, \beta, … \omega $${% endraw %} ```\alpha, \beta, …, \omega```
 
-```\alpha, \beta, …, \omega```
-
-{% raw %}$$ \Gamma, \Delta, …, \Omega $${% endraw %}
-
-```\Gamma, \Delta, …, \Omega```
+{% raw %}$$ \Gamma, \Delta, …, \Omega $${% endraw %} ```\Gamma, \Delta, …, \Omega```
 
 ### Superscripts and Subscripts
 
