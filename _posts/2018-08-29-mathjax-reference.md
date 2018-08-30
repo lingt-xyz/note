@@ -3,6 +3,7 @@ title: MathJax Reference
 layout: post
 toc: true
 categories: latex
+comments: true
 ---
 
 [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
@@ -847,11 +848,11 @@ e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 ### 24. Pack of cards
 
 
-{% raw %}$$ \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit $${% endraw %} ``` \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit ```
+{% raw %}$$ \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit $${% endraw %} ` \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit `
 
-{% raw %}$$ \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} $${% endraw %} ``` \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} ```
+{% raw %}$$ \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} $${% endraw %} ` \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} `
 
-{% raw %}$$  $${% endraw %} ```  ```
+{% raw %}$$  $${% endraw %} ``
 
 {% raw %}
 $$
@@ -860,5 +861,4 @@ $$
 {% endraw %} 
 
 ``` tex
-
 ```

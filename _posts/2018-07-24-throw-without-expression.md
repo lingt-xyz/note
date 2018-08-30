@@ -3,6 +3,7 @@ title:  Throw statement with no expression
 layout: post
 categories: c_sharp
 tags: c#
+comments: true
 ---
 
 > You can also use the throw e syntax in a catch block to instantiate a new exception that you pass on to the caller. 

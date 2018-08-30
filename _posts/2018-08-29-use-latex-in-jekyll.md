@@ -2,6 +2,7 @@
 title: Use Latex in Jekyll
 layout: post
 categories: latex
+comments: true
 ---
 Two things need to be done.
 
