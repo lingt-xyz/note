@@ -847,10 +847,16 @@ e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 
 ### 24. Pack of cards
 
-
 {% raw %}$$ \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit $${% endraw %} ` \spadesuit\quad\heartsuit\quad\diamondsuit\quad\clubsuit `
 
 {% raw %}$$ \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} $${% endraw %} ` \color{red}{\heartsuit}\quad\color{red}{\diamondsuit} `
+
+### 25. Binomial
+
+{% raw %}$$ \binom{N}{k} $${% endraw %} `\binom{N}{k}`
+
+{% raw %}$$ {N\choose k} $${% endraw %} `{N\choose k}`
+
 
 {% raw %}$$  $${% endraw %} ``
 
