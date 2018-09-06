@@ -12,7 +12,7 @@
         // http://danielnouri.org/notes/2011/03/14/a-jquery-find-that-also-finds-the-root-element/
         // http://stackoverflow.com/a/12731439/358804
         var $descendants = $el.find(selector);
-        return $el.filter(selector).add($descendants).filter(':not([data-toc-skip])'); //":not(.data-toc-skip)"
+        return $el.filter(selector).add($descendants).filter(':not(.data-toc-skip)'); //:not([data-toc-skip])
       },
 
       generateUniqueIdBase: function(el) {
