@@ -63,3 +63,39 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+code.gray {
+    border: 1px solid #adadad;
+    color: black;
+    background-color: #e3e3e3;
+  }
+  
+  code.green {
+    border: 1px solid #286500;
+    color: black;
+    background-color: #53d000;
+  }
+  
+  code.yellow-green {
+    border: 1px solid #286500;
+    color: black;
+    background-color: #C8EA00;
+  }
+  
+  code.yellow {
+    border: 1px solid #6f6e00;
+    color: black;
+    background-color: yellow;
+  }
+  
+  code.orange {
+    border: 1px solid #b20000;
+    color: black;
+    background-color: #FFC543;
+  }
+  
+  code.red {
+    border: 1px solid #b20000;
+    color: black;
+    background-color: #ff8989;
+  }
