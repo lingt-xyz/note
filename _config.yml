@@ -23,6 +23,9 @@ version:             1.0.0
 # Gems
 plugins:            [jekyll-paginate]
 
+# Use CommonMark
+markdown: CommonMark
+
 # Add prefix to avoid ids start with numbers
 kramdown:
   auto_id_prefix:   toc-
