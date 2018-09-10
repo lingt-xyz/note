@@ -40,3 +40,52 @@ Two things need to be done.
     ```
     $$a^2 + b^2 = c^2$$
     ```
+
+
+### Examples:
+
+* Indent
+
+    1. Must contain 0: 
+
+        {% raw %}$$
+        \left.
+        \begin{array}{l}
+        0\quad \_\quad \_\quad \_\quad \_:&10^4\\
+        \_\quad 0\quad \_\quad \_\quad \_:&10^4\\
+        \_\quad \_\quad 0\quad \_\quad \_:&10^4\\
+        \_\quad \_\quad \_\quad 0\quad \_:&10^4\\
+        \_\quad \_\quad \_\quad \_\quad 0:&10^4
+        \end{array}
+        \right\}
+        =5\times10^4
+        $${% endraw %}
+
+        * How about {% raw %}$$00012$${% endraw %}, it was counted three times.
+        * {% raw %}$$10^5 - 9^5$${% endraw %}: {% raw %}$$9^5$${% endraw %} is who does not contain 0.
+
+    2. Must contain 0 and 1: {% raw %}$$10^5-9^5-9^5+8^5$${% endraw %}
+
+    ```
+    {% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
+    1. Must contain 0: 
+
+        {% raw %}$$
+        \left.
+        \begin{array}{l}
+        0\quad \_\quad \_\quad \_\quad \_:&10^4\\
+        \_\quad 0\quad \_\quad \_\quad \_:&10^4\\
+        \_\quad \_\quad 0\quad \_\quad \_:&10^4\\
+        \_\quad \_\quad \_\quad 0\quad \_:&10^4\\
+        \_\quad \_\quad \_\quad \_\quad 0:&10^4
+        \end{array}
+        \right\}
+        =5\times10^4
+        $${% endraw %}
+
+        * How about {% raw %}$$00012$${% endraw %}, it was counted three times.
+        * {% raw %}$$10^5 - 9^5$${% endraw %}: {% raw %}$$9^5$${% endraw %} is who does not contain 0.
+        
+    2. Must contain 0 and 1: {% raw %}$$10^5-9^5-9^5+8^5$${% endraw %}
+    {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
+    ```
