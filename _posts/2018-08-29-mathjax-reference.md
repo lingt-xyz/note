@@ -118,6 +118,11 @@ Use ```\mathbb``` or ```\Bbb``` for "blackboard bold"
 
 {% raw %}$$ a_1+a_2+\cdots+a_n $${% endraw %} ```a_1+a_2+\cdots+a_n  ```
 
+{% raw %}$$ \lceil{x}\rceil $${% endraw %} ```\lceil{x}\rceil ```
+
+{% raw %}$$ \lfloor{x}\rfloor $${% endraw %} ```\lfloor{x}\rfloor ```
+
+
 ### 11. Accents and diacritical marks
 
 {% raw %}$$ \hat x $${% endraw %} ``` \hat x ```
