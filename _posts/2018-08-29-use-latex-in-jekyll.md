@@ -8,38 +8,65 @@ Two things need to be done.
 
 <!--more-->
 
-1. Import MathJax: make sure use ```https```
+1. Config inline mode, so we can use `$$`
+    ```javascript
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+    </script>
+    ```
+2. Import MathJax: make sure use `https`
     ``` html
     <script type="text/javascript"
         src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
     ```
-2. Put the code in ```{% raw %} {% endraw %}```
-    ```
-    {% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
-        $$ put MathJax here $$
-    {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
-    ```
+3. Two way to put the latex code
+    1. Put the code in `{% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}{% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}`
+        ```
+        {% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
+            $$ put MathJax here $$
+        {% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
+        ```
+    2. User latex delimiters
+        ```
+        \\(...\\) for inlnie and \\[...\\] for display
+        ```
     
 ### Style Examples
 
 * Inline
     {% raw %}
-    $$ a^2 + b^2 = c^2 $$ --> note that all equations between these tags will not need escaping! 
+    $$ a^2 + b^2 = c^2 $$ --> note that all equations between these tags will not need escaping!
+
+    $ a^2 + b^2 = c^2 $ --> note that all equations between these tags will not need escaping! 
     {% endraw %}
 
     ```
     $$ a^2 + b^2 = c^2 $$ --> note that all equations between these tags will not need escaping!
+
+    $ a^2 + b^2 = c^2 $ --> note that all equations between these tags will not need escaping! 
     ```
 
-* Block
+* Display
     {% raw %}
+    some text
+    $$ a^2 + b^2 = c^2 $$
+
+    keep a blank line
+
     $$ a^2 + b^2 = c^2 $$
     {% endraw %}
 
     ```
     $$a^2 + b^2 = c^2$$
     ```
+    
+    Be carefule when use *Display*, make sure there are blanks lines (That's why the first one does not work).
 
 
 ### Examples:
