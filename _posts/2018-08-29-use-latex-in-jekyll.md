@@ -9,7 +9,7 @@ Two things need to be done.
 <!--more-->
 
 1. Config inline mode, so we can use `$$`
-    ```javascript
+    ```html
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
@@ -34,7 +34,7 @@ Two things need to be done.
         ```
     2. User latex delimiters
         ```
-        \\(...\\) for inlnie and \\[...\\] for display
+        \\(...\\) for inline and \\[...\\] for display
         ```
     
 ### Style Examples
@@ -63,10 +63,15 @@ Two things need to be done.
     {% endraw %}
 
     ```
-    $$a^2 + b^2 = c^2$$
+    some text
+    $$ a^2 + b^2 = c^2 $$
+
+    keep a blank line
+
+    $$ a^2 + b^2 = c^2 $$
     ```
     
-    Be carefule when use *Display*, make sure there are blanks lines (That's why the first one does not work).
+    Be carefule when use *Display*, make sure there are blank lines (That's why the first one does not work).
 
 
 ### Examples:
