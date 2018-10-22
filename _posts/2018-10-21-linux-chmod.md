@@ -12,7 +12,7 @@ Create a symlink for each project to your home directory. Say your project is lo
 ```
 sudo ln -sT ~/Projects/foo /var/www/html/foo
 ```
-If your home directory has no execute bit (descend) set for other (for security reasons), change the group of it to www-data, but set the execute bit only (no read/write). Do the same for the `~/Projects` folder as it may contain other Projects than www. (You don't need sudo if you have previously added your user to the `www-data` group.)
+If your home directory has no execute bit (descend) set for other (for security reasons), change the group of it to www-data, but set the execute bit only (no read/write). Do the same for the `~/Projects` folder as it may contain other Projects than www. (You don't need `sudo` if you have previously added your user to the `www-data` group.)
 
 ```
 sudo chgrp www-data ~ ~/Projects
