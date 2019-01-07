@@ -1,0 +1,31 @@
+# Permalinks
+permalink:           pretty
+
+excerpt_separator:   <!--more-->
+
+# Setup
+title:               Ling
+tagline:             'Studying at Concordia University'
+description:         'A site hosting studying notes.'
+url:                 
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Ling
+  url:               https://lingt.xyz
+  email:             lingt.xyz@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Gems
+plugins:            [jekyll-paginate]
+
+# Use CommonMark
+# markdown: CommonMark
+
+# Add prefix to avoid ids start with numbers
+kramdown:
+  auto_id_prefix:   toc-
