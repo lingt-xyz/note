@@ -1,6 +1,8 @@
 # site url
 url: https://lingt.xyz/note
 
+exclude: ['_courses']
+
 # Permalinks
 permalink:           pretty
 
