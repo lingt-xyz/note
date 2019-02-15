@@ -1,5 +1,5 @@
 # site url
-url: "https://lingt.xyz/note"
+url: "https://lingt.xyz"
 baseurl: "/note"
 
 exclude: ['_courses']
