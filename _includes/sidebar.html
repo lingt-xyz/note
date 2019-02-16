@@ -20,7 +20,8 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "course" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+       <!--page.url: The URL of the Post without the domain, but with a leading slash, e.g.  /2008/12/14/my-post.html-->
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -29,7 +30,7 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "category" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
