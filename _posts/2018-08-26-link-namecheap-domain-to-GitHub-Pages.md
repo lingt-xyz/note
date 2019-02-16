@@ -4,7 +4,7 @@ key: link-namecheap-domain-to-GitHub-Pages
 layout: post
 categories: network
 tags: network
-comments: true
+
 ---
 
 ### Add domain to Github repository

@@ -4,7 +4,7 @@ key: why-trailing-slashes-on-uris-are-important
 layout: post
 categories: network
 tags: network
-comments: true
+comments: false
 ---
 
 ### Origin of the trailing slash

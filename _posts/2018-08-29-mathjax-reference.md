@@ -3,7 +3,7 @@ title: MathJax Reference
 layout: post
 toc: true
 categories: latex
-comments: true
+
 ---
 
 [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)

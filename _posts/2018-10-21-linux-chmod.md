@@ -3,7 +3,7 @@ title:  How to avoid using sudo when working in /var/www/html
 layout: post
 categories: linux
 tags: linux
-comments: true
+
 ---
 
 <!--more-->

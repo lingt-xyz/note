@@ -4,7 +4,6 @@ key: how-to-install-VirtualBox-GuestAdditions-in-a-Debian-virtual machine
 layout: post
 categories: system
 tags: system, linux, virtual machine
-comments: true
 ---
 
 
