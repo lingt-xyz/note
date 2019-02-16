@@ -2,7 +2,7 @@
 url: "https://lingt.xyz"
 baseurl: "/note"
 
-exclude: ['_courses']
+# exclude: ['_courses']
 
 # Permalinks
 permalink:           pretty
