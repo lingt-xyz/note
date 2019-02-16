@@ -7,15 +7,13 @@ exclude: ['_courses']
 # Permalinks
 permalink:           pretty
 
+paginate:            5
 excerpt_separator:   <!--more-->
 
-# Setup
 title:               Ling
 tagline:             'Studying at Concordia University'
 description:         'A site hosting studying notes.'
-url:                 
-baseurl:             ''
-paginate:            5
+
 
 # About/contact
 author:
