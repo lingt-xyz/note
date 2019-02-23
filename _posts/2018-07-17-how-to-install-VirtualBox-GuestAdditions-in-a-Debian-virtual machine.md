@@ -6,12 +6,9 @@ categories: system
 tags: system, linux, virtual machine
 ---
 
-
+<!--more-->
 1. Open terminal and become root ```su```
 2. Update APT cache: ```apt-get update```
-
-<!--more-->
-
 3. Install the latest security updates: ```apt upgrade```
 4. Install these required packages: ```apt install build-essential module-assistant```
 5. Configure your system for building kernel modules: ```m-a prepare```
