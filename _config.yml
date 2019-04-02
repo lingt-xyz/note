@@ -1,6 +1,6 @@
 # site url
 url: "https://lingt.xyz"
-baseurl: "/notes"
+baseurl: "/note"
 
 # exclude: ['_courses']
 
